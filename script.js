@@ -1,8 +1,8 @@
 var x = 50;
 var y = 50;
 
-var speedX = 2;
-var speedY = 1;
+var speedX = 5;
+var speedY = 5;
 /**
  * setup
  * de code in deze functie wordt één keer uitgevoerd door
@@ -40,8 +40,29 @@ if (y === 680){
 };
 
 if (x === 1240){
- speedX = speedX *-1
-}
+ speedX = speedX * -1
+};
+
+if (y === 40){
+  speedY = speedY * -1
+ };
+
+if (x === 40){
+  speedX = speedX * -1
+ };
+
+};
+
+/*hoe werkt array?
+start variabelen moet verschillend zijn, net zoals snelheid
+
+helemaal bovenaan:
+var balletjes = [0, 1, 2, 3, 4];
+
+in de draw:
+als balletje rand raakt, dan snelheid * -1
+net zoals het balletje dat ik al heb
+
+*/
 
 
-}
