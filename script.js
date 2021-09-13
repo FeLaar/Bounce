@@ -53,16 +53,3 @@ if (x === 40){
 
 };
 
-/*hoe werkt array?
-start variabelen moet verschillend zijn, net zoals snelheid
-
-helemaal bovenaan:
-var balletjes = [0, 1, 2, 3, 4];
-
-in de draw:
-als balletje rand raakt, dan snelheid * -1
-net zoals het balletje dat ik al heb
-
-*/
-
-

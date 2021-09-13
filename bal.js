@@ -21,9 +21,19 @@ show() {
 }
 
 update() {
-    if (this.x <= 0) {
+    if (this.x <= 0 || this.x >= 1240) {
         this.speedX = this.speedX * -1
     }
+    if (this.y <= 0 || this.y >= 680) {
+        this.speedY = this.speedY * -1
+    }
 }
+
+function draw () {
+    background('blue')
+
+    bal.show
+}
+
 
 }
